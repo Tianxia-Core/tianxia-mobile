@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0.0",
+  "type": "protected_vm",
+  "boot": {
+    "payload_binary": "aether_mesh",
+    "isolated_namespace": true
+  },
+  "hardware": {
+    "cpu": {
+      "count": 2,
+      "topology": "match_host"
+    },
+    "memory": {
+      "size_bytes": 1073741824
+    }
+  },
+  "permissions": {
+    "allow_device_assignment": false,
+    "allow_custom_firmware": false
+  }
+}

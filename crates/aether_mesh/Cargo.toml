@@ -1,0 +1,9 @@
+[package]
+name = "aether_mesh"
+version = "2.0.0"
+edition = "2021"
+description = "Sovereign AetherMesh Mobile Swarm Daemon (TCP + AF_VSOCK)"
+license = "Apache-2.0"
+
+[dependencies]
+libc = "0.2"

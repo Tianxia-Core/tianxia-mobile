@@ -1,0 +1,17 @@
+name: Bug Report
+description: Report an issue in Tianxia Mobile, AetherMesh, or tx-mobile-bridge
+labels: ["bug"]
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Device / OS / ABI
+      placeholder: Pixel 8 Pro (Android 14 arm64-v8a) or Linux x86_64
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Reproduction Steps & Telemetry Output
+    validations:
+      required: true
