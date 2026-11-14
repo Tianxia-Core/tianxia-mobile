@@ -1,0 +1,15 @@
+target/
+build/
+.gradle/
+dist/
+*.apk
+*.idsig
+*.keystore
+*.jks
+*.so
+*_binary
+src/main/assets/modules/aether_mesh
+__pycache__/
+*.py[cod]
+.env
+.env.*
