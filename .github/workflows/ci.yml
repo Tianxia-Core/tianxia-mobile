@@ -32,7 +32,7 @@ jobs:
           go test -race -v ./...
           CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath -ldflags="-s -w" -o ../dist/tx-mobile-bridge-linux-x86_64 ./cmd/tx-mobile-bridge
           CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -trimpath -ldflags="-s -w" -o ../dist/tx-mobile-bridge-windows-x86_64.exe ./cmd/tx-mobile-bridge
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: "temurin"
           java-version: "21"
