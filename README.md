@@ -8,8 +8,30 @@
 
 `tianxia-mobile` unifies the Android `arm64-v8a` mobile client (`com.rasaxmachina.tianxia`), the Rust `aether_mesh` (`aarch64-linux-android`) and `avf_nomad_core` edge daemons, and the static Go `tx-mobile-bridge` host relay across Linux, Windows, and Android.
 
+<!-- BUILD_LAW_SHOWCASE_START -->
+
 ---
 
+## 🌍 In Plain English — What `tianxia-mobile` Is & Why It Matters (Layman's Guide)
+
+- **The Everyday Problem:** Smartphones carry desktop-class ARM64 processors in our pockets, yet almost every developer tool treats mobile devices as passive dumb terminals tethered to someone else's cloud.
+- **How It Works (Without the Jargon):** `tianxia-mobile` turns Android (`arm64-v8a`) devices into first-class encrypted mesh nodes with battery-aware sleep coalescing (`Annapūrṇā`), signed native ARM64 binaries, and a verified Android `.apk` cockpit.
+- **Why It Is Different:** Engineered under **[Build Law](https://github.com/Tianxia-Core/Build-Law)** (`MPL-2.0`) so mobile nodes participate securely in zero-trust WireGuard/Tailscale clusters without draining battery.
+- **How It Benefits You:** Operators and field engineers can monitor, verify, and orchestrate sovereign infrastructure from their pocket anywhere on Earth.
+- **How to Install & Use It in 60 Seconds:** Download the `apksigner` v2/v3 verified `.apk` or ARM64 CLI tarball from **[Latest Releases](https://github.com/Tianxia-Core/tianxia-mobile/releases/latest)**.
+
+---
+
+## 🏛️ Governed by [`Build Law`](https://github.com/Tianxia-Core/Build-Law) — Engineering Philosophy & Stakeholder Pathways
+
+This repository is a live production showcase of **[`Build Law`](https://github.com/Tianxia-Core/Build-Law)**—the open-source (`MIT`) **4-Pillar, 14-Gate Constitutional Engineering & `5.0×–8.8×` Token-Efficiency Standard** created by **[Collins Takem](https://rasaxmachina.com/collins)** (**RASA-X-MACHINA**):
+- **Developers & AI Builders:** Drop **[`Build Law`](https://github.com/Tianxia-Core/Build-Law)** into Claude Code, Cursor, OpenCode, VS Code (`.vsix`), GitHub Copilot, Windsurf, Cline, Aider, or any chat LLM in 60 seconds.
+- **CTOs & B2B Engineering Leaders:** Need similar `Rust`/`Go`/`Nix`/Security/FinOps rigor applied to your infrastructure? Scope a fixed-price **72-Hour `VRTTI` Architecture Sprint** at **[vrtti.rasaxmachina.com](https://vrtti.rasaxmachina.com)**.
+- **Investors, Researchers, Press & Executive Hiring Committees:** Inspect our cryptographic release proofs across **[`@Tianxia-Core`](https://github.com/Tianxia-Core)**, press assets at **[rasaxmachina.com/press](https://rasaxmachina.com/press)**, and founder dossier at **[rasaxmachina.com/collins](https://rasaxmachina.com/collins)**.
+
+<!-- BUILD_LAW_SHOWCASE_END -->
+
+---
 ## Polyglot Function-Feature Pair (FFP) Architecture
 
 | Component | FFP ID & Class | Language | Role |
